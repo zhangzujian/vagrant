@@ -9,7 +9,6 @@ on:
 
 jobs:
   start-release:
-    if: github.repository == 'hashicorp/vagrant'
     name: Initiate Release
     runs-on: ubuntu-latest
     steps:

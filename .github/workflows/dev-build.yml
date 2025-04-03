@@ -6,7 +6,6 @@ on:
 
 jobs:
   trigger-build:
-    if: github.repository == 'hashicorp/vagrant'
     name: Trigger Vagrant Development Build
     runs-on: ubuntu-latest
     steps:
