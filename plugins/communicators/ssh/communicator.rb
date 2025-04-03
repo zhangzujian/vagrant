@@ -51,7 +51,7 @@ module VagrantPlugins
 
       def self.match?(machine)
         # All machines are currently expected to have SSH.
-        true
+        false
       end
 
       def initialize(machine)
